@@ -1,0 +1,88 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4e6; /* Creme */
+    color: #2a5d3e; /* Verde escuro */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2a5d3e; /* Verde escuro */
+    color: #dbdd4a; /* Creme */
+    text-align: center;
+    padding: 20px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+.container {
+    padding: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2a5d3e; /* Verde escuro */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Botão */
+button, .btn {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover, .btn:hover {
+    background-color:#28a745;
+}
+#fotos{
+    overflow: hidden;
+    clear: both;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+}
+
+figure{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    padding: 5px;
+    max-width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figcaption{
+    background-color: #fff48f;
+    border-radius: 10px;
+    color: #28a745;
+    padding: 3px;
+    text-align: center;
+}
